@@ -14,6 +14,28 @@
 
 function calcularIMC(peso, altura) {
   // TODO: implementar função
+  altur = 20
+  pes = 20
+  let calculo = peso / (altura * altura)
+
+  if (calculo < 18.5){
+    return("Abaixo do peso")
+  }
+  if (calculo < 24.9 && 18.5){
+    return("Peso normal")
+  }
+  if (calculo < 29.9 && 25){
+    return("Peso Sobrepeso")
+  }
+  if (calculo < 30){
+    return("Obesidade")
+  }
+  if (typeof(altura) || typeof(peso) != Number){
+    return("Erro")
+  }
+
+return(peso, altura)
+
 }
 
 // NÃO REMOVA O CÓDIGO ABAIXO

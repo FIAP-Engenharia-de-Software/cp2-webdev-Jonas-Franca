@@ -9,6 +9,15 @@
 
 function adivinharNumero(max, palpite) {
   // TODO: implementar função
+    max = 10
+    palpite = 5
+    numeroSecreto = Math.random(0, max)
+    if (numeroSecreto == palpiteA) {
+        return("Acertou!")
+    }else {
+        return("Errou!")
+    }
+   return(max,palpite)
 }
 
 
